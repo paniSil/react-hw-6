@@ -27,7 +27,6 @@ const Navigation = () => {
                 <Route path="/contact" element={<Contact />} />
             </Routes>
         </BrowserRouter >
-
     )
 }
 

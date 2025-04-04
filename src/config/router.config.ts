@@ -3,14 +3,14 @@ import Home from "../components/Home"
 import About from "../components/About"
 import Contact from "../components/Contact"
 
-interface Route {
+export interface Route {
     path: string
     label: string
-    Component: ComponentType
+    element: ComponentType
 }
 
 export const routes: Route[] = [
-    {path: '/', label: 'Home', Component: Home},
-    {path: '/about', label: 'About', Component: About},
-    {path: '/contact', label: 'Contact', Component: Contact}
+    {path: '/', label: 'Home', element: Home},
+    {path: '/about', label: 'About', element: About},
+    {path: '/contact', label: 'Contact', element: Contact}
 ]

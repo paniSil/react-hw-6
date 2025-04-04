@@ -1,14 +1,13 @@
 import Navigation from './components/Navigation'
-import Router from './components/Router'
-import RouterProvider from 'react-router'
 import './App.css'
+import DynamicRouter from './components/DynamicRouter'
 
 function App() {
 
   return (
     <>
       {/* <Navigation /> */}
-      <RouterProvider router={Router} />
+      <DynamicRouter />
     </>
   )
 }
