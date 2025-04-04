@@ -10,23 +10,23 @@ const Navigation = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to="/home" end> Home </NavLink>
+                        <NavLink to="/" className={({ isActive }) => isActive ? "selected" : ""} end> Home </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/about" end> About </NavLink>
+                        <NavLink to="/about" className={({ isActive }) => isActive ? "selected" : ""} > About </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contact" end> Contact </NavLink>
+                        <NavLink to="/contact" className={({ isActive }) => isActive ? "selected" : ""} > Contact </NavLink>
                     </li>
                 </ul>
             </nav>
 
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter >
 
     )
 }

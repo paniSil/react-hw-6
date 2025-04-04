@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation'
-import NavigationDynamic from './components/NavigationDynamic'
+import Router from './components/Router'
+import RouterProvider from 'react-router'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       {/* <Navigation /> */}
-      <NavigationDynamic />
+      <RouterProvider router={Router} />
     </>
   )
 }

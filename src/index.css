@@ -75,3 +75,8 @@ li {
   display: inline;
   padding: 20px;
 }
+
+.selected {
+  text-decoration: underline 2px;
+  color: #74beff;
+}
