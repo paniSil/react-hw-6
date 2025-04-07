@@ -4,9 +4,9 @@ Project page on Netlify: [React 6](https://react-hw-6-panisil.netlify.app/)
 Follow-up react project on makin dynamic navigation using react-router
 
 ## Components:
-- Header navigation using NavLink
-- Footer navigation using Link
-- Dynamic navigation with routes config and map
+- Language Context and Language Provider
+- Context Levels
+- Language toggle button
 
 ## Used technologies:
 - React + TypeScript
@@ -23,7 +23,7 @@ Follow-up react project on makin dynamic navigation using react-router
 
 1. Clone this repository:
    ```
-   git clone https://github.com/paniSil/react-hw-5.git
+   git clone https://github.com/paniSil/react-hw-6.git
    ```
    
 2. Navigate to the project directory:
@@ -34,7 +34,6 @@ Follow-up react project on makin dynamic navigation using react-router
 4. Install dependencies:
    ```
    yarn install
-   yarn add react-router
    ```
 
 5. Run the development server:
